@@ -22,9 +22,9 @@ Before running program, the following preparation is required.
 ##### B) Make input directory and place the following input maps there.
 
         - temporally frequent maps ("T maps" hereafter) and spatially fine maps ("S maps" hereafter).
-                 data format is 2 bytes Integer. All maps must be co-registered and be the same size.
-		 Any filenames are acceptable. for example, S map and T map for a year "YYYY" and a day of year "DOY" can be
-                 "spatial_YYYYDOY.raw", "temporal_YYYYDOY.raw".
+          data format is 2 bytes Integer. All maps must be co-registered and be the same size.
+          Any filenames are acceptable. for example, S map and T map for a year "YYYY" and a day of year "DOY" can be:
+          "spatial_YYYYDOY.raw", "temporal_YYYYDOY.raw".
 
 ##### C) Put the following list files in the same directory as the program (RFDBUX.py).
         - namelist of T map and S map pairs. Each map name must be separated by a separator "," and T map name must be before S map name.
@@ -43,16 +43,16 @@ Before running program, the following preparation is required.
                         ...
 
 ##### D) Make sure you know all the following parameters, which will be given as arguments when you run the program.
-        in_dir //absolute path of the directory where input maps are placed.
+	in_dir //absolute path of the directory where input maps are placed.
 	out_dir //absolute path of the directory where predicted maps will be written.
 	pairlist_name //list of input pairs (e.g. pairlist.txt) that is placed in the same directory of this python script.
 	predlist_name //list of prediction (e.g. predlist.txt) that is placed in the same directory of this python script.
 	NTREES //number of decision trees used in random forest. 
-        MINNODESIZE //minimum size of samples for each decision tree nodes.
-        Maxlevel //maximum level of decision tree nodes.
+	MINNODESIZE //minimum size of samples for each decision tree nodes.
+	Maxlevel //maximum level of decision tree nodes.
 	COL //number of columns of a map.
-        ROW //number of rows of a map.
-        NV //null value. must NOT be in between valid range of S and T data.
+	ROW //number of rows of a map.
+	NV //null value. must NOT be in between valid range of S and T data.
 	MULTI //number of CPU cores which will be used for multiprocessing.
 
 ### Execute:
