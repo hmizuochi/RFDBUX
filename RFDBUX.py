@@ -92,7 +92,6 @@ if __name__ == "__main__":
     with open(input2,mode='r') as fp1:
         for i in range(PREDS):
             sname=out_dir+'/'+fp1.readline().replace('\n','').replace('\r','').split(',')[1]
-            make_ENVI_header_file(sname.replace('.raw',''),2)
             with open(sname,mode='wb') as fp2:
                 s_pred[:,i].astype('int16').tofile(fp2)
 
