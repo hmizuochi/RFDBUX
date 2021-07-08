@@ -6,7 +6,7 @@ These are stable programs of Randomforest-based Database Unmixing (Mizuochi et a
 First release on 2018/07/18: original version (Mizuochi et al., 2018)
 
 ### References:
-1. Mizuochi, H., Nishiyama, C., Ridwansyah, I., Nasahara, K. N. (2018): Monitoring of an Indonesian tropical wetland by machine-learning-based data fusion of passive and active microwave sensors. Remote Sensing. Submitted.
+1. Mizuochi, H., Nishiyama, C., Ridwansyah, I., Nasahara, K. N. (2018): Monitoring of an Indonesian tropical wetland by machine-learning-based data fusion of passive and active microwave sensors. Remote Sensing. 10(8), 1235, pp. 1-19.
 
 How to Use
 =====================
